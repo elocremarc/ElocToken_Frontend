@@ -1,4 +1,4 @@
-### web3 wallet login
-React component that connects to a web3 wallet like metamask.
+### ELOC Token Frontend
+React site to connect to the ELOC token ERC-20 contract claim tokens and display the ELOC token amount. 
 
-Demo: https://web3-login.on.fleek.co/
+Demo: https://eloc.on.fleek.co/
