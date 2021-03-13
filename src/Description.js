@@ -8,7 +8,7 @@ export default function Description() {
           Claim 10 ELOC tokens. You need to change your wallet to the Kovan Test
           Network with Kovan ETH loaded in your wallet for gas fees. You can get
           Kovan test Ethereum from{" "}
-          <a href="https://faucet.metamask.io/">here</a>.
+          <a href="https://enjin.io/software/kovan-faucet">here</a>.
         </p>
       </div>
     </React.Fragment>
