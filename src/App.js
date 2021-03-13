@@ -1,21 +1,25 @@
-import React, {Component} from 'react';
-import Login from './Login'
+import React, { Component } from "react";
+import Login from "./Login";
+import Description from "./Description";
+
 class App extends Component {
+  render() {
+    return (
+      <React.Fragment>
+        <h1 className="p-4 heading-4 text-center bg-light">ELOC Token</h1>
+        <Description />
 
-render() {
-
-  return (
-
-    <React.Fragment>  
-    <div class="d-flex bg-secondary">
-    <div id="heading" class="m-2 p-2 rounded text-light" ><h1 class="display-6">Login</h1></div>
-    <div class="flex-grow-1"></div>
-
-    <Login/>
-      </div>
-    </React.Fragment>  
-  
-  );
-}
+        <nav class="navbar navbar-expand-sm justify-content-center fixed-bottom bg-dark ">
+          <ul class="navbar-nav">
+            <div className="d-flex ">
+              <div className="flex-grow-1"></div>
+              <Login />
+              <div className="flex-grow-1"></div>
+            </div>
+          </ul>
+        </nav>
+      </React.Fragment>
+    );
+  }
 }
 export default App;
